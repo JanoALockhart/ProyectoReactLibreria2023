@@ -46,6 +46,7 @@ export default function RootLayout({ children }) {
         <meta property="og:site_name" content="PWA App" />
         <meta property="og:url" content="https://yourdomain.com" />
         <meta property="og:image" content="https://yourdomain.com/icons/apple-touch-icon.png" />
+        <link rel="manifest" href="/manifest.json" />
         <title>HS Library</title>
       </head>
       <body className={inter.className}>
