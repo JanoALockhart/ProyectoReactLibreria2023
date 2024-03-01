@@ -5,7 +5,7 @@ import LibraryClientApi from '@/app/services/LibraryClientApi';
 import { Modal } from 'react-bootstrap';
 import LocalRepository from '@/app/services/LocalRepository';
 
-initMercadoPago('TEST-3a2a4180-ed34-4c24-bce6-65c02cacbc2d');
+initMercadoPago('TEST-cc3c8c9a-d047-4a91-a65b-4eb0c3d65d24');
 
 export function PaymentForm ({ 
   totalPrice,
@@ -23,7 +23,7 @@ export function PaymentForm ({
 
 
   useEffect(() => {
-    initMercadoPago('TEST-3a2a4180-ed34-4c24-bce6-65c02cacbc2d');
+    initMercadoPago('TEST-cc3c8c9a-d047-4a91-a65b-4eb0c3d65d24');
   }, []);
 
   const onSubmit = async (formData) => {
