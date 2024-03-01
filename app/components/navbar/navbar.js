@@ -42,7 +42,7 @@ export default function NavbarApp(){
 				<>
 					<div className='fw-bolder nav-link'>{clientName}</div>
 					<Link href="myOrders" className='nav-link'>Mis Pedidos</Link>
-					<Link href="#" className='nav-link' onClick={logoutClient}>Cerrar Sesión</Link>
+					<Link href="home" className='nav-link' onClick={logoutClient}>Cerrar Sesión</Link>
 				</>
 			);
 		}else{
