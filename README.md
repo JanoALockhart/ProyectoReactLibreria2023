@@ -11,7 +11,7 @@ You can access the deployed version of the application [here](https://proyecto-r
 - **Mail:** client@iaw.com
 - **Password:** client123
 
-### Mercado Pago Payment
+### Example Credit Card
 - **Card Number:** 5031 7557 3453 0604	
 - **Exp. Date:** 11/25
 - **Code:** 123
